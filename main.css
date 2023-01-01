@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+}
+  
+#log-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+  
+#log-form label {
+    margin-bottom: 5px;
+}
+  
+#log-form input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+  
+#submit-button {
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}
+  
+#submit-button:hover {
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+#training-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+#training-table th, #training-table td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+}
+  
+#training-table th {
+    background-color: lightgray;
+}
+  
+#training-table tr:nth-child(even) {
+    background-color: lightgray;
+}
