@@ -10,6 +10,11 @@ form.addEventListener("submit", event => {
   addTraining(date, activity, distance, duration);
 });
 
+console.log(date);
+console.log(activity);
+console.log(distance);
+console.log(duration);
+
 function addTraining(date, activity, distance, duration) {
   const row = table.insertRow(-1);
   const dateCell = row.insertCell(0);
