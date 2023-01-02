@@ -3,6 +3,7 @@
 <head>
   <title>Training Log</title>
   <link rel="stylesheet" href="main.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
   <script src="main.js"></script>
 </head>
 <body>
@@ -20,12 +21,16 @@
   </form>
   <h2>Training History</h2>
   <table id="training-table">
-    <tr>
-      <th>Date</th>
-      <th>Activity</th>
-      <th>Distance (miles)</th>
-      <th>Duration (minutes)</th>
-    </tr>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Activity</th>
+        <th>Distance (km)</th>
+        <th>Duration (min)</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
   </table>
+  
 </body>
 </html>
